@@ -1,0 +1,6 @@
+apiVersion: coredhcp.roob.re/v1alpha1
+kind: StaticLease
+metadata:
+  name: staticlease-sample
+spec:
+  # TODO(user): Add fields here

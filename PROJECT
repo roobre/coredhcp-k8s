@@ -1,0 +1,39 @@
+domain: roob.re
+layout:
+- go.kubebuilder.io/v3
+projectName: coredhcp-k8s
+repo: roob.re/coredhcp-k8s
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: roob.re
+  group: coredhcp
+  kind: Lease
+  path: roob.re/coredhcp-k8s/api/v1alpha1
+  version: v1alpha1
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: roob.re
+  group: coredhcp
+  kind: Server
+  path: roob.re/coredhcp-k8s/api/v1alpha1
+  version: v1alpha1
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: roob.re
+  group: coredhcp
+  kind: StaticLease
+  path: roob.re/coredhcp-k8s/api/v1alpha1
+  version: v1alpha1
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: roob.re
+  group: coredhcp
+  kind: ServerClass
+  path: roob.re/coredhcp-k8s/api/v1alpha1
+  version: v1alpha1
+version: "3"

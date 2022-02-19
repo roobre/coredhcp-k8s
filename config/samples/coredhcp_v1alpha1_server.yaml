@@ -1,0 +1,6 @@
+apiVersion: coredhcp.roob.re/v1alpha1
+kind: Server
+metadata:
+  name: server-sample
+spec:
+  # TODO(user): Add fields here
